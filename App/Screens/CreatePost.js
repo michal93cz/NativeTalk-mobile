@@ -64,7 +64,7 @@ var CreatePost = React.createClass({
 });
 
 var i18n = Locale.key('CreatePost', {
-  placeholder: 'What do you have to say for yourself?',
+  placeholder: 'Where and what do want to do',
   submit: 'Submit',
 });
 

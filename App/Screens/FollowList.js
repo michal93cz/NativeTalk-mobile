@@ -8,8 +8,8 @@ import FollowListStore from '../Stores/FollowListStore';
 import FollowActions   from '../Actions/FollowActions';
 
 var i18n = Locale.key('FollowList', {
-  posts: 'Posts',
-  follows: 'Follows',
+  posts: 'Notices',
+  follows: 'Friends',
 });
 
 var FollowList = React.createClass({

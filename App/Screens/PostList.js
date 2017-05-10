@@ -8,8 +8,8 @@ import PostListStore from '../Stores/PostListStore';
 import PostActions   from '../Actions/PostActions';
 
 var i18n = Locale.key('PostList', {
-  posts: 'Posts',
-  follows: 'Follows',
+  posts: 'Notices',
+  follows: 'Friends',
 });
 
 var PostList = React.createClass({

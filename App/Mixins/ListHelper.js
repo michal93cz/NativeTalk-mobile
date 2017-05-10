@@ -130,7 +130,7 @@ var ListHelper = {
 };
 
 var i18n = Locale.key('ListHelper', {
-  dashboard: 'Dashboard'
+  dashboard: 'NativeTalk'
 });
 
 var styles = StyleSheet.create({

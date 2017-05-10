@@ -6,7 +6,7 @@ var i18n = Locale.key('Routes', {
   login: 'Log in',
   signup: 'Sign Up',
   settings: 'Settings',
-  new_post: 'New Post',
+  new_post: 'New Notice',
   cancel: 'Cancel',
   account: 'Me'
 });
@@ -125,7 +125,7 @@ var userRoute = function(username) {
 var LoggedIn = {
   parse: function(host) {
     switch (host) {
-      case 'dashboard':        
+      case 'dashboard':
         return userRoute(null);
       default:
         return null;

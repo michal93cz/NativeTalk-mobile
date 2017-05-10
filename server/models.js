@@ -102,15 +102,15 @@ var sir = User.create('sir', 'sample', 'zxcvbnmqwertlkjhg');
 
 user.addPost("#Boston #USA #Explore I'm here and I want to see more then hotel room.");
 user.addPost("#Barcelona #Spain #Cofee Somebody wants get cofee time with me?");
-user.addPost("Learning CSS...\nDaughter: Put it in the middle between the top and bottom.\nDad: (googles again) Are you sure?");
-user.addPost("#reactjs #flux child components are like teenagers. they don't tell parents what they are up to. parent has to hear later from dispatcher.");
+user.addPost("#Poznan #Poland #OldTown I can speak in italy and I want to see old town, somebody?");
+user.addPost("#Warszawa #Poland #City I want to explore night city life. I can speak in italy.");
 
-michu.addPost("The problem with Rails today is that 1/2 the people are afraid Rails is turning into Java and the other 1/2 are trying to turn it into Java");
-michu.addPost("Thanks @TaskRabbit to allow my party of 10 people to eat at House of Prime Ribs with 0 minutes wait :)! Yummy! #TaskTuesday");
+michu.addPost("#Berlin #Germany #dinner Somebody want to meet with me and has a dinner, I can speak in polish.");
+michu.addPost("#Paris #France #Eiffel I'm from Poland I want to go to this tower with somebody.");
 
-sir.addPost("When you're a #NewParent tasks can really pile up. We can help! Check out our Task of the Week http://tinyurl.com/pxh88f8");
-sir.addPost("@TaskRabbit CEO @leahbusque talks about confidence necessary to propel your idea forward #DF15WomenLead #df15");
-sir.addPost("Happiness is the sound of someone else building your IKEA furniture. #taskrabbit");
+sir.addPost("#Amsterdam #Netherlands #bikes I am from Germany, maybe somebody want to ride with me?");
+sir.addPost("#Pekin #China #Explore I am from Germany and I want explore city");
+sir.addPost("#London #UK #Lunch I speak in german and I want eat some good lunch in London city.");
 
 user.addFollow(michu);
 user.addFollow(sir);

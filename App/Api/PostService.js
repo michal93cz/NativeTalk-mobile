@@ -29,6 +29,13 @@ var PostService = {
     });
   },
 
+  fetchListUser: function(username, callback) {
+    client.get("api/posts/" + username, {}, function(error, response) {
+      var listProps = PostService.parsePosts(response);
+      callback(error, listProps);
+    });
+  },
+
   createPost: function(content, callback) {
     client.post("api/posts", {content: content}, function(error, response) {
       var postProps = PostService.parsePost(response);
